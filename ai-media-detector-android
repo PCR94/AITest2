@@ -1,0 +1,14 @@
+app/
+├── ui/
+│   ├── HomeScreen.kt
+│   ├── LoadingScreen.kt
+│   ├── ResultScreen.kt
+│   ├── HistoryScreen.kt
+├── network/
+│   ├── ApiService.kt
+│   └── ApiClient.kt
+├── viewmodel/
+│   └── DetectionViewModel.kt
+├── data/
+│   └── DetectionResult.kt
+└── MainActivity.kt
