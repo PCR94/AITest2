@@ -1,14 +1,17 @@
-app/
-├── ui/
-│   ├── HomeScreen.kt
-│   ├── LoadingScreen.kt
-│   ├── ResultScreen.kt
-│   ├── HistoryScreen.kt
-├── network/
-│   ├── ApiService.kt
-│   └── ApiClient.kt
-├── viewmodel/
-│   └── DetectionViewModel.kt
-├── data/
-│   └── DetectionResult.kt
-└── MainActivity.kt
+ai-media-detector-android/
+└── app/
+    └── src/
+        └── main/
+            └── java/com/yourpackage/
+                ├── MainActivity.kt
+                ├── ui/
+                │   ├── HomeScreen.kt
+                │   ├── LoadingScreen.kt      ← Step 2
+                │   ├── ResultScreen.kt
+                │   └── HistoryScreen.kt
+                ├── viewmodel/
+                │   └── DetectionViewModel.kt  ← Step 2 (state handling)
+                └── network/
+                    ├── ApiClient.kt
+                    └── ApiService.kt
+
