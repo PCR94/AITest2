@@ -1,0 +1,15 @@
+backend/
+├── app/
+│   ├── main.py          # FastAPI routes
+│   ├── models.py        # Load ML models
+│   ├── inference.py     # Ensemble logic
+│   ├── video.py         # Frame extraction
+│   ├── fft.py           # Frequency analysis
+│   └── utils.py
+├── weights/
+│   ├── efficientnet.pth
+│   ├── vit.pth
+│   └── fft.pkl
+├── Dockerfile
+├── requirements.txt
+└── README.md
